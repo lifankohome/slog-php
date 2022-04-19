@@ -1,6 +1,6 @@
 <?php
 
-namespace lifanko;
+namespace Lifanko;
 
 class Slog
 {
