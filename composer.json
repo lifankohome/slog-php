@@ -14,8 +14,10 @@
   "authors": [
     {
       "name": "lifanko",
-      "email": "lifankohome@gmail.com"
+      "email": "lifankohome@gmail.com",
+      "homepage": "https://www.lifanko.cn"
     }
   ],
+  "version": "1.0.1",
   "minimum-stability": "dev"
 }
