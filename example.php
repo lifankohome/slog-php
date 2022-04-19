@@ -1,17 +1,3 @@
-# slog-php
-Slog Class in php
-
-### Installation
-
-```
-composer require lifanko/slog 
-```
-
-### Usage
-
-Send a real time log.
-
-```php
 <?php
 
 use lifanko\Slog;
@@ -30,13 +16,3 @@ Slog::log([
         'repository' => 'https://github.com/lifankohome/slog-php'
     ]
 ]);
-
-```
-
-### Slog Client
-
-Slog Tool: https://github.com/lifankohome/slog-tool
-
-### Slog Server
-
-Slog Server: https://github.com/lifankohome/slog-server

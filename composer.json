@@ -1,0 +1,21 @@
+{
+  "name": "lifanko/slog",
+  "description": "Slog Class in php",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lifanko\\Slog\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "lifanko",
+      "email": "lifankohome@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
