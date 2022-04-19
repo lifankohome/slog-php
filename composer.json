@@ -1,6 +1,6 @@
 {
   "name": "lifanko/slog",
-  "description": "Slog Class in php",
+  "description": "Slog Library in php",
   "type": "library",
   "require": {
     "php": ">=5.3.0"

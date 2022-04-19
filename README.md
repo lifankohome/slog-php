@@ -1,10 +1,10 @@
 # slog-php
-Slog Class in php
+Slog Library in php
 
 ### Installation
 
 ```
-composer require lifanko/slog 
+composer require lifanko/slog
 ```
 
 ### Usage
