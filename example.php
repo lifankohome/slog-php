@@ -1,6 +1,8 @@
 <?php
 
-use lifanko\Slog;
+require_once 'vendor/autoload.php';
+
+use Lifanko\Slog;
 
 Slog::log('Hello World');
 
