@@ -6,16 +6,18 @@ class Slog
 {
     const CONFIG = [
         'server' => 'http://hpu.lifanko.cn:8081/',
-        'uuid' => 'slog_tool'
+        'uuid' => 'slog-tool'
     ];
 
     public static function log($obj, $url = 'auto', $type = 'auto')
     {
         $server = self::CONFIG['server'];
+        $uuid = str_replace(' ', '_', self::CONFIG['uuid']);
+
         if (substr($server, strlen($server) - 1) == '/') {
-            $server_url = $server . self::CONFIG['uuid'];
+            $server_url = $server . $uuid;
         } else {
-            $server_url = $server . '/' . self::CONFIG['uuid'];
+            $server_url = $server . '/' . $uuid;
         }
 
         if ($url == 'auto') {
